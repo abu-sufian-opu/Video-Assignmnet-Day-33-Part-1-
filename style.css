@@ -1,0 +1,173 @@
+.header-menu .container-fluid {
+    max-width: 1480px;
+}
+
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #111;
+    font-family: rubik, sans-serif;
+    font-weight: 500;
+}
+
+body {
+    font-family: roboto, sans-serif;
+}
+
+.header-menu {}
+
+ul.our-primary-menu {
+    list-style: none;
+}
+
+ul.our-primary-menu li {
+    display: block;
+}
+
+ul.our-primary-menu li a {
+    display: block;
+    text-decoration: none;
+    padding: 0 20px;
+    color: #111;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+ul.our-primary-menu li a:hover {}
+
+.menu-call {
+    border-right: 1px solid #ddd;
+    width: 60px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.call-icon {
+    font-size: 30px;
+    color: #e83b3e;
+}
+
+.call-info {
+    width: 200px;
+}
+
+.call-info span {
+    color: #606060;
+}
+
+.call-info a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 600;
+}
+
+.default-btn {
+    background-color: #e83b3e !important;
+    border-color: #e83b3e !important;
+    padding: 10px 44px;
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+}
+
+.default-btn::after {
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #111;
+    /* border-color: #111;
+    color: #fff; */
+    /* border: 1px solid transparent; */
+    border-radius: .25rem;
+    z-index: -1;
+    transition: .4s;
+}
+
+.default-btn:hover {
+    border-color: #111;
+}
+
+.default-btn:hover::after {
+    width: 100%;
+}
+
+/* slider/banner css */
+.slider-section {
+    background: url(img/main-banner2.jpg) no-repeat top center;
+    background-size: cover;
+}
+
+.slider-content {}
+
+.slider-content h6 {
+    color: #e83b3e;
+}
+
+.slider-content h1 {
+    font-size: 68px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.slider-content p {
+    font-size: 18px;
+    max-width: 650px;
+}
+
+.slider-content-wrap {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.slider-social {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.slider-social ul {
+    list-style: none;
+}
+
+.slider-social ul li {
+    display: inline-block;
+}
+
+.slider-social ul li span {
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 18px;
+    position: relative;
+}
+
+.slider-social ul li span::after {
+    content: "";
+    position: absolute;
+    left: 85px;
+    top: 14px;
+    height: 1px;
+    width: 40px;
+    background-color: #111;
+}
+
+.slider-social ul li a {
+    display: inline-block;
+    color: #111;
+    padding: 0 10px;
+}
